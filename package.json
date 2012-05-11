@@ -1,6 +1,6 @@
 {
     "name": "nodeload-nmickuli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Load testing library for node.js. Updated for node 0.6.x by nmickuli.",
     "keywords": ["testing", "load testing", "http"],
     "homepage": "https://github.com/nmickuli/nodeload",
@@ -39,7 +39,8 @@
         "expresso": ">=0.7.7"
     },
     "dependencies": {
-        "optparse": "1.0.3"
+        "optparse": "1.0.3",
+	"nlogger" : ">= 0.3.0"
     },
     "licenses": [
         {
